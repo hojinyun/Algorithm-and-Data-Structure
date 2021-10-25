@@ -13,6 +13,6 @@ int main(void){
 	}
 	sort(numbers, numbers+n);
 	for(int i = 0; i < n; i++){
-		cout << numbers[i] << '\n'; // '\n' 안쓰면 실행 안됨 
+		cout << numbers[i] << '\n'; // '\n' 안쓰면 시간 초과 됨 
 	}
 }
