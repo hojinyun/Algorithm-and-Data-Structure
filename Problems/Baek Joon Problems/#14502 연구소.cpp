@@ -102,9 +102,7 @@ int main(void){
 					}
 				}
 				//시간 초과 방지 
-				test[i][j] = WALL;
-				create_walls(num_walls-1);
-				test[i][j] = EMPTY;
+				create_walls(num_walls);
 			}
 		}
 	}
