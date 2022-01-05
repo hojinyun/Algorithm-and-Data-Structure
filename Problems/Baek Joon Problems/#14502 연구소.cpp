@@ -92,7 +92,7 @@ int main(void){
 			cin >> map[i][j];
 		}
 	}
-	
+
 	for(int i = 0; i < n; i++){
 		for(int j = 0; j < m; j++){
 			if(map[i][j] == EMPTY){
@@ -106,6 +106,5 @@ int main(void){
 			}
 		}
 	}
-	
 	cout<<answer<<endl;
 }
