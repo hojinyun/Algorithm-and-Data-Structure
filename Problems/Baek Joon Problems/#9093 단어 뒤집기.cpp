@@ -18,9 +18,9 @@ int main(void){
 				counter++;
 			}
 		}
+		//단어가 하나 밖에 없을 때
 		if(counter == 0){
 			for(int start = 0; start < str.size()/2; start++){
-				//cout<<"swap: " <<str[start]<<" and "<<str[str.size()-start]<<endl;
 				char temp;
 				temp = str[start];
 				str[start] = str[str.size()-1-start];
@@ -28,24 +28,20 @@ int main(void){
 			}
 			cout << str << endl;
 		}
+		//단어가 여러개 있을 때
 		else{
 			for(int k = 0; k < counter+1; k++){
+				//첫번째 공백
 				if(k == 0){
-					//cout<<"start"<<endl;
 					for(int start = 0; start < empty_space[k]/2; start++){
 						char temp;
-						//cout<<"swap: " <<str[start]<<" and "<<str[empty_space[k]-start-1]<<endl;
 						temp = str[start];
-						//cout<<"4th "<<str[4]<<endl;
-						//cout<<"temp: "<<temp<<endl;
 						str[start] = str[empty_space[k]-start-1];
-						//cout<<"number: "<<empty_space[k]-start-1<<endl;
 						str[empty_space[k]-start-1] = temp;
-						//cout<<"check "<<str[empty_space[k]-start-1]<<endl;
 					}
 				}
+				//마지막 공백
 				else if(k == counter){
-					//cout<<"end"<<endl;
 					for(int start = empty_space[k-1]+1; start < (empty_space[k-1]+str.size())/2+1; start++){
 						char temp;
 						temp = str[start];
@@ -53,8 +49,8 @@ int main(void){
 						str[empty_space[k-1]+str.size()-start] = temp;
 					}
 				}
+				//중간 공백들
 				else{
-					//cout<<"middle"<<endl;
 					for(int start = empty_space[k-1]+1; start < (empty_space[k]+(empty_space[k-1]+1))/2; start++){
 						char temp;
 						temp = str[start];
@@ -62,7 +58,6 @@ int main(void){
 						str[empty_space[k]+empty_space[k-1]-start] = temp;
 					}
 				}
-					
 			}
 			cout << str <<endl;
 		}
