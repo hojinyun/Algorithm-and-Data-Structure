@@ -74,7 +74,7 @@ int main() {
     int n;
     cin >> n;
     cin.ignore();
-	for(int i = 0; i < n; i++){
+	while(n--){
         string original = "";
         getline(cin, original);
         //마지막 단어도 뒤집어주기 위해 마지막 줄에 공백 추가 
@@ -94,4 +94,3 @@ int main() {
         }
     }
 }
-
