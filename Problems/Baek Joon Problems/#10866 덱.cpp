@@ -5,16 +5,13 @@ using namespace std;
 int n, deque[10000] = {}, back_idx = -1;
 
 void push_front(int number){
-	if(back_idx == -1){
-		deque[0] = number;
-	}
-	else{
+	if(back_idx != -1){
 		//모든 값들 한칸 오른쪽으로 이동
 		for(int i = back_idx; i > -1; i--){
 			deque[i+1] = deque[i];
 		}
-		deque[0] = number;
 	}
+	deque[0] = number;
 	back_idx++;
 	return;
 }
