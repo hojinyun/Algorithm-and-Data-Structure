@@ -16,7 +16,7 @@ int main(){
 	//소인수분해
 	while(n!=1){
 		//2부터 n까지 나눠지는 지 확인 
-		for(int i=2; i<=n; i++){
+		for(int i=2; i<=n; i++){ //int i = temp; i값을 저장 해서 시작하는 방법도 있음
 			//n이 나누어 떨어지고 소수인 i인 경우 
 			if(n%i==0 && isPrime[i]){
 				//출력 
