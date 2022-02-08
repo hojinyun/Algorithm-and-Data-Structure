@@ -15,7 +15,7 @@ https://hojinyun.github.io/Algorithm-&-Data-Structure/
 - [License](#License)
 
 ## Maintainer
-Hojin Yun | Contact: hojinyun.dev@gmail.com
+Hojin Yun / 윤호진 | Contact: hojinyun.dev@gmail.com
 
 ## Credits
 Dongbin Na / 나동빈 | Github: https://github.com/ndb796 | Youtube: https://www.youtube.com/channel/UChflhu32f5EUHlY7_SetNWw
