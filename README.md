@@ -19,6 +19,7 @@ Hojin Yun / 윤호진 | Contact: hojinyun.dev@gmail.com
 
 ## Credits
 Dongbin Na / 나동빈 | Github: https://github.com/ndb796 | Youtube: https://www.youtube.com/channel/UChflhu32f5EUHlY7_SetNWw
+Special thanks to Dongbin Na for his algorithm and data structure implemenations course on his Youtube.
 
 ## Contributing
 For enquires contact hojinyun.dev@gmail.com.
