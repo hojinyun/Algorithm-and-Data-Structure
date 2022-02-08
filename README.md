@@ -9,13 +9,10 @@ https://hojinyun.github.io/Algorithm-&-Data-Structure/
 
 ## Table of Contents
 
-- [Security](#security)
-- [Background](#background)
-- [Install](#install)
-- [Usage](#usage)
-- [API](#api)
-- [Contributing](#contributing)
-- [License](#license)
+- [Maintainer](#maintainer)
+- [Credits](#Credits)
+- [Contributing](#Contributing)
+- [License](#License)
 
 ## Maintainer
 Hojin Yun | Contact: hojinyun.dev@gmail.com
