@@ -18,7 +18,7 @@ https://hojinyun.github.io/Algorithm-&-Data-Structure/
 Hojin Yun | Contact: hojinyun.dev@gmail.com
 
 ## Credits
-Dongbin Na / 나동빈 | Github: https://github.com/ndb796 | Contact: dongbinna@postech.ac.kr | Youtube: https://www.youtube.com/channel/UChflhu32f5EUHlY7_SetNWw
+Dongbin Na / 나동빈 | Github: https://github.com/ndb796 | Youtube: https://www.youtube.com/channel/UChflhu32f5EUHlY7_SetNWw
 
 ## Contributing
 For enquires contact hojinyun.dev@gmail.com.
