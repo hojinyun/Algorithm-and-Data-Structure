@@ -16,6 +16,7 @@ int main(){
 		for(int j = 1; j <= i; j++){
 			d[i] = max(d[i], d[i-j]+price[j]);
 		}
+	}
 	//Ãâ·Â
 	cout << d[n];
 }
