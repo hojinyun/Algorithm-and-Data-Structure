@@ -1,3 +1,4 @@
+//for문 미사용 방식 
 #include <iostream>
 
 using namespace std;
@@ -21,7 +22,8 @@ int main(){
 	//출력
 	cout <<dp[k][n];
 }
-/*
+
+/* for문 사용 방식 
 #include <iostream>
 using namespace std;
 
