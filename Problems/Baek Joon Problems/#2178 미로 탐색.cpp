@@ -6,7 +6,7 @@ using namespace std;
 int n, m; //가로 세로 길이
 int check[100][100]={0}; //깊이 저장 및 방문 확인 을 위한 배열
 char map[100][100]={0}; //지도
-queue<pair<int,int>> q; //dfs를 위한 큐
+queue<pair<int,int>> q; //bfs를 위한 큐
 //이동 가능한 4방향
 int dx[4] = {0,0,1,-1};
 int dy[4]={1,-1,0,0};
