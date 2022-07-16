@@ -15,7 +15,7 @@ int main(){
 	//입력 
 	cin >> n >> m; 
 	for(int i = 0; i < n; i++) cin >> map[i];
-	//주위 4칸을 모두 확인하는 dfs 시작
+	//주위 4칸을 모두 확인하는 bfs 시작
 	//시작점 저장
 	q.push({0,0});
 	check[0][0] = 1;
