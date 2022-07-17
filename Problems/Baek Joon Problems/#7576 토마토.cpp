@@ -35,7 +35,7 @@ int main(){
 			q.push({row,col}); //큐에 안익은 위치 저장 
 			box[row][col] = 1; //익은 상태로 변환 
 			num_not_riped--; //안익은 토마토 개수 줄임 
-			days[row][col]=days[tmp.first][tmp.second]+1; //읶는데 걸리는 일 수		
+			days[row][col]=days[tmp.first][tmp.second]+1; //익는데 걸리는 일 수		
 		}
 	}
 	//출력 
